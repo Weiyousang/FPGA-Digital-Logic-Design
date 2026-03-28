@@ -1,2 +1,37 @@
-# FPGA-Digital-Logic-Design
-A comprehensive collection of FPGA digital logic design projects, progressing from basic combinational and sequential logic to advanced embedded applications including motor control, electronic locks, and temperature regulation.
+# 💻 FPGA Digital Logic Design | FPGA 數位邏輯設計
+
+## 📝 About The Project (關於專案)
+本專案收錄了「FPGA 數位邏輯設計」課程的系列實作與專題。內容涵蓋了硬體描述語言 (HDL) 的基礎語法、數位邏輯電路設計，以及多項進階的系統級控制專題。
+
+透過這些實作，展現了從底層邏輯閘、時序控制到複雜感測器與致動器整合的完整 FPGA 開發流程，具備紮實的數位電路設計與硬體系統控制能力。
+
+## 🔬 Project Contents (專案內容)
+
+本專案依據開發深度，將 12 個實作項目劃分為三大類別：
+
+### 🛠️ Part 1: Basic Logic & Data Processing (基礎邏輯與資料處理)
+探討 FPGA 基礎架構與硬體描述語言的資料處理方法。
+* **01_FPGA邏輯處理**: 基礎組合邏輯電路設計與閘級實作。
+* **02_FPGA序列處理**: 循序邏輯電路設計與資料串流處理。
+* **03_FPGA數值處理**: 數值運算單元 (ALU) 設計與二進位運算實作。
+* **04_基本暫存器**: 各類暫存器 (Registers) 與移位暫存器 (Shift Registers) 設計。
+
+### ⏱️ Part 2: Timing, Counting & State Machines (時序、計數與狀態機)
+著重於數位系統中至關重要的時序控制與狀態管理。
+* **05_計數處理**: 同步與非同步計數器 (Counters) 設計。
+* **06_計時處理**: 除頻器設計與精確的時間延遲控制。
+* **07_程序處理**: 基礎有限狀態機 (FSM, Finite State Machine) 的設計與系統流程控制。
+
+### 🚀 Part 3: Advanced Applications & Control Systems (進階專題與控制系統)
+將基礎模組整合，開發具備實際互動與控制功能的完整系統。
+* **08_電子鐘專題**: 整合計時、計數與七段顯示器多工作業的數位時鐘系統。
+* **09_密碼鎖專題**: 結合狀態機與按鍵防彈跳 (Debounce) 處理的門禁密碼鎖系統。
+* **10_步進馬達專題**: 步進馬達驅動時序產生與轉速/轉向控制。
+* **11_運動控制專題**: 整合感測回饋與致動器，實現進階的硬體運動軌跡控制。
+* **12_溫度控制專題**: 溫度感測器訊號讀取、資料轉換與閉迴路 (Closed-loop) 溫度調節系統。
+
+## ⚙️ Tools & Technologies (開發工具與技術)
+* **硬體平台**: *(註：請在此填寫你使用的 FPGA 開發板型號，例如 Altera DE2 / Xilinx Basys 3 等)*
+* **硬體描述語言**: *(註：Verilog HDL 或 VHDL)*
+* **開發環境**: *(註：Quartus II 或 Vivado)*
+* **核心技術**: 有限狀態機 (FSM)、硬體時序控制、感測器介面整合、馬達控制
