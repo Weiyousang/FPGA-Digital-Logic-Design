@@ -31,7 +31,6 @@
 * **12_溫度控制專題**: 溫度感測器訊號讀取、資料轉換與閉迴路 (Closed-loop) 溫度調節系統。
 
 ## ⚙️ Tools & Technologies (開發工具與技術)
-* **硬體平台**: *(註：請在此填寫你使用的 FPGA 開發板型號，例如 Altera DE2 / Xilinx Basys 3 等)*
-* **硬體描述語言**: *(註：Verilog HDL 或 VHDL)*
-* **開發環境**: *(註：Quartus II 或 Vivado)*
+* **硬體描述語言**: VHDL
+* **開發環境**: Quartus II 
 * **核心技術**: 有限狀態機 (FSM)、硬體時序控制、感測器介面整合、馬達控制
